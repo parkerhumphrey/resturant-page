@@ -1,13 +1,55 @@
-body{
-  padding-left: 250px
-}
-h1{
-  font-family: 'Amatic SC', cursive;
-  font-size: 60px;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Break-Fast CSS
+    </title>
 
-p{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1 em;
-}
+    <style>
+      /* This is how we write comments in CSS */
+      /* CSS stands for "Cascading Style Sheets". We will explore the
+      "cascading" property later. For now "Style" is the key */
+
+      /* Use
+      http://www.w3schools.com/cssref/css_websafe_fonts.asp
+      for reference */
+
+      /* I will be using several different ways to reference color
+      throughout this example file. Use
+      http://www.w3schools.com/colors/default.asp
+      for reference */
+
+      h1{
+    
+        font-family: "Comic Sans MS", cursive, sans-serif; /* Oh, the dreaded Comic Sans!! */
+        color: pink;
+      }
+
+      .all_my_headers{
+      /* we can add a specific CLASS to a tag and target changes that way */
+        text-decoration: underline;
+      }
+
+      p{
+        font-family: "Courier New", Courier, monospace;
+
+    </style>
+
+  </head>
+
+  <body>
+    <h1 class="all_my_headers"> Examples of Formatted Text </h1>
+
+    <p>
+      Here are some examples of text formatting using html tags.
+      Later on you will see more <em>sophisticated formatting</em> with css but
+      is a good start.
+    </p>
+    <h2 class="all_my_headers"> There are other </h2>
+    <h3 class="all_my_headers"> header sizes </h3>
+    <p id="call_to_action">
+      You can google them :)
+    </p>
+
+  </body>
+</html>
